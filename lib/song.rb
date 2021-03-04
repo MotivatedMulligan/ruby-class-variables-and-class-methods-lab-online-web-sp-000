@@ -10,7 +10,7 @@ class Song
 
   def self.artists #show us all artists of existing songs:
  puts [ ]
-   @@artists = []
+   @@artists = {}
   end
 
   def self.genres(name)  #show us all genres of existing songs
@@ -18,7 +18,7 @@ class Song
   end
 
   def self.genre_count #keep track of number of songs of each genre it creates
- genres = []
+ genres = {}
   end
 
   def self.artist_count
